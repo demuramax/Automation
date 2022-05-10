@@ -2,10 +2,11 @@
 # Module 3 (Pandas Core): Data Structures ----
 
 # IMPORTS ----
+# %%
 import pandas as pd
 import numpy as np
-
 from my_pandas_extensions.database import collect_data
+
 
 
 # 1.0 HOW PYTHON WORKS - OBJECTS
@@ -64,3 +65,5 @@ from my_pandas_extensions.database import collect_data
 # Casting
 
 
+
+# %%
