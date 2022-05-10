@@ -77,6 +77,6 @@ def collect_data(conn_string = 'sqlite:///00_database/bike_orders_database.sqlit
     ]
     df = df[cols_to_keep_list]
     
-    df.columns = df.columns.str.replace('.', '_')
+    df.columns = df.columns.str.replace('.', '_', regex=False)
     
     return df
