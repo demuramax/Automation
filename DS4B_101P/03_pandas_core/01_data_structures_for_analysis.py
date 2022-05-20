@@ -7,6 +7,8 @@ import pandas as pd
 import numpy as np
 from my_pandas_extensions.database import collect_data
 
+df = collect_data()
+
 
 
 # 1.0 HOW PYTHON WORKS - OBJECTS
